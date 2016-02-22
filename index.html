@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>index</title>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.js"></script>
+<script type="text/javascript" src="js/jquery.sweet-menu-1.0.js"></script>
+<script type="text/javascript"> 
+			$(document).ready(function(){ 
+				
+                $('#backMenu').sweetMenu({
+					top: 40,
+					padding: 8,
+					iconSize: 48,
+					easing: 'easeOutBounce',
+					duration: 500,
+					icons: [
+						'images/back.png'
+					]
+				});
+				
+				$('#exampleMenu').sweetMenu({
+					top: 200,
+					padding: 8,
+					iconSize: 48,
+					easing: 'easeOutBounce',
+					duration: 500,
+					
+				});
+			});
+		</script>
+ <link href="css/lanrenzhijia.css" type="text/css" rel="stylesheet">
+
+<!-- Chang URLs to wherever Video.js files will be hosted -->
+  <link href="video-js.css" rel="stylesheet" type="text/css">
+  <!-- video.js must be in the <head> for older IEs to work. -->
+  <script src="video.js"></script>
+
+  <!-- Unless using the CDN hosted version, update the URL to the Flash SWF -->
+  <script>
+    videojs.options.flash.swf = "video-js.swf";
+  </script>
+
+</head>
+
+<body>
+<ul id="exampleMenu">
+  <li><a href="cpbmbs/cpbmbs.html">唱片部门本赏</a></li>
+  <li><a href="yybmbs/yybmbs.html">音源部门本赏</a></li>
+  <li><a href="rqjxrj/rqjxrj.html">人气奖&新人奖</a></li>
+  <li><a href="qtjx/qtjx.html">其他奖项</a></li>
+  <li><a href="ljdsmd/ljdsmd.html">历届大赏名单</a></li>
+</ul>
+<h1>第30届<a href="http://baike.baidu.com/view/4489011.htm" target="blank">韩国金唱片大赏</a></h1>
+<br><br><br>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;韩国金唱片大赏(Golden Disk Awards)是韩国的一个年度音乐颁奖典礼，于1986年创办，由韩国唱片产业协会主办，主要颁发给韩国音乐界有卓越成就的音乐人。
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;金唱片大赏又被称为韩国的“格莱美奖”。
+<br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;权威性非常高的韩国传统的颁奖典礼。它是以销量和数据为主要评审对象的具有一定客观性的颁奖典礼，并且是由韩国唱片协会主办的，
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;而评审员都是唱片协会的职务员。金唱片大赏评选将综合音源、唱片销量、人气投票等数据作为重要依据。
+<br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;奖项类别:
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;常设奖项共七个，不限音乐类型。另外在Hip Hop、摇滚和Trot各设有三个奖项
+<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;唱片大赏:由各个唱片本赏中选出年度最佳者，此奖项只限於在该年度发表过正规专辑的艺人。
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;音源大赏:由各个音源本赏中选出年度最佳者，此奖项包括在该年度在音源网站上发表过的正规专辑、迷你专辑、EP或单曲的艺人。
+<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;唱片本赏:在该年度发表过专辑的艺人，某年某一张专辑。2月1日至11月30日国内发行的所有唱片销量的统计将占审查基准的60%，
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在此基础上再加上人气投票20%、审查委员评价20%，综合计算之后就能得出最终的评价分数。 排名不分先后。
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;音源本赏:在该年度在音源网站上发表过的正规专辑、迷你专辑、EP或单曲的艺人，排名统计方式同上。
+<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人气奖:颁赠给该年度最受欢迎的艺人。评分标准为歌迷的人气投票占60%、审查委员分数占40%，综合计算后得出分数。
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;人气MV奖、年度Rock奖、年度制作人奖......
+    </p>
+<br>
+
+<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="640" height="264"
+      poster="img/1.jpg"
+      data-setup="{}">
+    <source src="video/Sing For You.mp4" type='video/mp4' />
+    <track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+    <track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+  </video>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/wutai.png"></p>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;金健模、EXO连续荣获3次唱片大赏。曺诚模、Super Junior荣获唱片大赏3次，但不是连续获得。
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;少女时代亦荣获大赏3次，其中1次为唱片大赏，2次为音源大赏。其次SG Wannabe、东方神起、申升勋、卞金燮都荣获唱片大赏2次。
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;少女时代是第一个获得过同时获得过唱片大赏和音源大赏的歌手。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://baike.baidu.com/view/4489011.htm" target="blank">更多关于金唱片大赏信息，点击这里~</a></p>
+
+</body>
+</html>
